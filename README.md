@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-Please click this link [Live Demo!](https://suwit-game.netlify.app/)
+Please click this link [Live Demo!](https://suwit-game.netlify.app/) (better open it on your phone browser)
 
 ## How to run this project
 
