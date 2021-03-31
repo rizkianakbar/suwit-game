@@ -1,4 +1,4 @@
-## Suwit
+## Suwit Game
 
 ## Tech Stack
 
