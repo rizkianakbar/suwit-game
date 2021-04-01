@@ -34,7 +34,7 @@ class PlayWithComputer extends Component {
 
   userWin = (user, comp) => {
     console.log(user, comp);
-    this.setState((prevState, props) => ({
+    this.setState((prevState) => ({
       userScore: prevState.userScore + 1,
       round: prevState.round + 1,
       userChoice: user,
@@ -45,7 +45,7 @@ class PlayWithComputer extends Component {
 
   userLose = (user, comp) => {
     console.log(user, comp);
-    this.setState((prevState, props) => ({
+    this.setState((prevState) => ({
       compScore: prevState.compScore + 1,
       round: prevState.round + 1,
       userChoice: user,
@@ -56,7 +56,7 @@ class PlayWithComputer extends Component {
 
   gameDraw = (user, comp) => {
     console.log(user, comp);
-    this.setState((prevState, props) => ({
+    this.setState((prevState) => ({
       round: prevState.round + 1,
       userChoice: user,
       compChoice: comp,
